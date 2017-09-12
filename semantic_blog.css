@@ -1,0 +1,64 @@
+
+main {
+	background-image: url(images/fadeder_paw_prints.jpg);
+	width: 100%;
+	position: relative;
+	font-weight: bold;
+}
+#roll {
+	background-color: rgba(255,192,203,0.3);
+	width: 10%;
+	position: absolute;
+	right: 0;
+	top: 0; 
+	border-radius: 20%;
+}
+#igor {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 10%;
+}
+p {
+	display: flex;
+	justify-content: center;
+	text-align: center;	
+	background-color: rgba(255,255,255, 0.4)
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	color: #f38296;
+	text-align: center;
+}
+h2, h3 {
+	display: none;
+}
+.members {
+	width: 16.66%;
+	float: left;
+	height: 250px;
+	border-radius: 5%;
+}
+.links {
+	width: 16.66%;
+	padding-top: 10px;
+	float: left;
+}
+.motto {
+	width: 50%;
+	float: left;
+	padding-top: 10px;
+}
+.indiv {
+	width: 46%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.back {
+	clear: left;
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+}
